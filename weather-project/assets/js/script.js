@@ -1,5 +1,5 @@
 const url='https://api.openweathermap.org/data/2.5/'
-const key='<URL KEY HERE>'
+const key='<API KEY HERE>'
 
 function setQuery(){
     let query=(url+'weather?q='+inputText.value+'&appid='+key+'&units=metric&lang=tr')

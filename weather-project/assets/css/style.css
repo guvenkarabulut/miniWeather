@@ -23,15 +23,16 @@ body {
     color: white;
     border-radius: 10px;
     text-align:center; 
-    height: 800px;
+    height: 470px;
     width: 100%;
 }
 .col-xxl-6
 {
-    background-color: blue;
+    background-color: rgba(79, 72, 72, 0.5);
+    border-radius: 5%;
     margin-top: 50px;
     width: 100%;
-    height: 200px; 
+    height: 100px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,12 +40,13 @@ body {
 .col-xxl-5
 {
     margin-top: 50px;
-    height: 200px; 
+    height: 100px; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(/assets/img/rainyWeather.jpg);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
+    background-size: cover;
     background-attachment:fixed;
     background-position: top-left;
     width: 100%;
@@ -53,4 +55,9 @@ body {
 .row{
     width: 100%;
     height: 100%;
+}
+#image{
+    width: 80px;
+    height: 80px;
+    background-size: contain;
 }
